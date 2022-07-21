@@ -3,6 +3,39 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@keyframes sliding {
+    0% {
+        background-color: white;
+        left: 300px;
+        top: -100px;
+        transform: scale(0.5);
+    }
+    25% {
+        top: -200px;
+    }
+    50% {
+        top: 0;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        background-color: white;
+        left: 1000px;
+        top: 0;
+    }
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+    border-radius: 50%;
+    position: relative;
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+}
+
 .top-banner {
     background-color: #161616;
     padding-left: 106px;
