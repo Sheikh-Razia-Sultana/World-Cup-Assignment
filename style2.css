@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    background-color: #161616;
+    padding-left: 106px;
+    padding-top: 10px;
+    margin: 40px 110px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-title h1 {
+    color: #00ffbf;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    color: #00ffbf;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 22px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.player-image img {
+    display: flex;
+    width: 500px;
+    height: auto;
+    padding: 0 70px;
+    padding-top: 30px;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 120px 300px;
+}
+
+.nav-left {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: #161616;
+    background-color: white;
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 5px;
+    width: 209px;
+}
+
+#red-color {
+    background-color: red;
+    color: white;
+}
+
+.timing-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.timing {
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px #ded8d8;
+}
+
+.flagimages {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.schedule {
+    padding: 10px;
+}
+
+.schedule>p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.schedule>h3 {
+    text-align: center;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #161616;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    color: #00ffbf;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 100%;
+    color: #00ffbf;
+}
+
+footer .All-Links {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+footer .All-Links a {
+    color: #00ffbf;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0 20px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
